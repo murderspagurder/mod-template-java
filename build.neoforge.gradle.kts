@@ -25,6 +25,10 @@ jsonlang {
     prettyPrint = true
 }
 
+repositories {
+    maven("https://maven.parchmentmc.org") { name = "ParchmentMC" }
+}
+
 neoForge {
     version = property("deps.neoforge") as String
     validateAccessTransformers = true
