@@ -33,6 +33,7 @@ jsonlang {
 
 repositories {
     mavenLocal()
+    maven("https://maven.parchmentmc.org") { name = "ParchmentMC" }
 }
 
 dependencies {
